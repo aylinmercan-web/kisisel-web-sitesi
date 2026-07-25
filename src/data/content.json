@@ -1,0 +1,336 @@
+{
+  "tr": {
+    "nav": {
+      "skills": "Yetenekler",
+      "projects": "Projeler",
+      "hireMe": "İletişime Geç",
+      "darkMode": "KARANLIK MOD",
+      "switchLanguage": "ENGLISH'E GEÇ"
+    },
+    "hero": {
+      "badge": "Aylin Mercan",
+      "titleLine1": "Sade Tasarım,",
+      "titleLine2": "Güçlü Kod.",
+      "description": "Merhaba, ben Aylin. JavaScript ve React alanında kendimi geliştiriyorum. Bu projede yeniden kullanılabilir componentler geliştirerek veri akışı ve responsive tasarım prensiplerini uyguladım.",
+      "ctaHire": "İletişime Geç",
+      "ctaGithub": "Github",
+      "ctaLinkedin": "Linkedin",
+      "imageAlt": "Dizüstü bilgisayar başında çalışan geliştirici"
+    },
+    "skills": {
+      "title": "Yetenekler",
+      "items": [
+        {
+          "id": 1,
+          "name": "HTML",
+          "description": "Semantik ve erişilebilir HTML yapıları kurarak içeriği anlamlı bir şekilde organize ediyorum."
+        },
+        {
+          "id": 2,
+          "name": "CSS",
+          "description": "Flexbox, Grid ve Tailwind CSS ile responsive ve tutarlı arayüzler tasarlıyorum."
+        },
+        {
+          "id": 3,
+          "name": "JavaScript",
+          "description": "ES6+ ile modern, okunabilir ve sürdürülebilir kod yazıyorum. Asenkron veri akışlarına hakimim."
+        },
+        {
+          "id": 4,
+          "name": "React.js",
+          "description": "Component tabanlı, yeniden kullanılabilir arayüzler; Hooks, Context API ile state yönetimi kuruyorum."
+        },
+        {
+          "id": 5,
+          "name": "Git",
+          "description": "Git ile versiyon kontrolü yapıyor, değişiklikleri düzenli commit'lerle takip ediyorum."
+        }
+      ]
+    },
+    "profile": {
+      "title": "Profil",
+      "basicInfoTitle": "Ben Kimim?",
+      "birthDateLabel": "Doğum Tarihi",
+      "birthDate": "26.02.1989",
+      "cityLabel": "Şehir",
+      "city": "Muğla",
+      "educationLabel": "Eğitim",
+      "education": "Workintech, Full Stack Development, 2026",
+      "roleLabel": "Tercih Ettiği Rol",
+      "role": "Frontend, UI",
+      "aboutMeTitle": "Hakkımda",
+      "aboutMeParagraph1": "Yıldız Teknik Üniversitesi Mütercim Tercümanlık Bölümü mezunuyum. Dil alanında edindiğim analitik düşünme ve iletişim becerilerimi frontend geliştirme alanına taşıyorum. HTML, CSS, JavaScript ve React kullanarak modern ve kullanıcı odaklı web arayüzleri geliştiriyorum.",
+      "aboutMeParagraph2": "Temiz kod, erişilebilirlik ve kullanıcı deneyimini ön planda tutan, sürekli öğrenmeye açık bir geliştiriciyim."
+    },
+    "projects": {
+      "title": "Projeler",
+      "items": [
+        {
+          "id": 1,
+          "name": "Teknolojik Yemekler",
+          "description": "Kullanıcıların pizza boyutu, hamur ve malzeme seçerek sipariş oluşturabildiği, sipariş özetini gösteren React uygulaması.",
+          "image": "/screenshots/teknolojik-yemekler.jpg",
+          "tags": ["react", "react-router", "vite"],
+          "github": "https://github.com/aylinmercan-web/teknolojik-yemekler",
+          "live": "https://teknolojik-yemekler-sigma.vercel.app/"
+        },
+        {
+          "id": 2,
+          "name": "Dil Atölyesi",
+          "description": "Kelime kartları, ders rezervasyon formu ve öğrenci yorumlarından oluşan, dil öğretimine yönelik kişisel bir konsept proje.",
+          "image": "/screenshots/language-workshop.jpg",
+          "tags": ["react", "vite"],
+          "github": "https://github.com/aylinmercan-web/language-workshop",
+          "live": "https://language-workshop.vercel.app/"
+        },
+        {
+          "id": 3,
+          "name": "Book Store",
+          "description": "Context API ile sepet ve ürün yönetimi yapılan, styled-components ile tasarlanmış kitap satış arayüzü.",
+          "image": "/screenshots/book-store.jpg",
+          "tags": ["react", "context api", "styled-components"],
+          "github": "https://github.com/aylinmercan-web/book-store",
+          "live": "https://book-store-wine-phi.vercel.app/"
+        },
+        {
+          "id": 4,
+          "name": "Friends Database",
+          "description": "Giriş yapan kullanıcının arkadaş listesini görüntüleyip yeni arkadaş ekleyebildiği, korumalı rotalarla kurulmuş React uygulaması.",
+          "image": "/screenshots/friends-database.jpg",
+          "tags": ["react", "context api", "react-router"],
+          "github": "https://github.com/aylinmercan-web/friends-database",
+          "live": "https://friends-database-five.vercel.app/"
+        },
+        {
+          "id": 5,
+          "name": "Favori Filmler Arşivi",
+          "description": "Redux ile favori film listesi tutulan, Tailwind CSS ile tasarlanmış film arşivi uygulaması.",
+          "image": "/screenshots/favori-filmler-arsivi.jpg",
+          "tags": ["react", "redux", "tailwind"],
+          "github": "https://github.com/aylinmercan-web/favori-filmler-arsivi",
+          "live": "https://favori-filmler-arsivi.vercel.app/"
+        },
+        {
+          "id": 6,
+          "name": "Filmler Sayfası",
+          "description": "Film listesini gösterip detay sayfasına yönlendiren, React Router ile kurulmuş bir film uygulaması.",
+          "image": "/screenshots/filmler-sayfasi.jpg",
+          "tags": ["react", "react-router"],
+          "github": "https://github.com/aylinmercan-web/filmler-sayfasi",
+          "live": "https://filmler-sayfasi.vercel.app/"
+        },
+        {
+          "id": 7,
+          "name": "Kapadokya Peri Bacaları",
+          "description": "Kapadokya'yı ve peri bacalarını tanıtan, tamamen HTML ve CSS ile tasarlanmış çok bölümlü bir tanıtım sayfası.",
+          "image": "/screenshots/kapadokya-peri-bacalari.jpg",
+          "tags": ["html", "css"],
+          "github": "https://github.com/aylinmercan-web/kapadokya-peri-bacalari",
+          "live": "https://kapadokya-peri-bacalari.vercel.app/"
+        },
+        {
+          "id": 8,
+          "name": "Food El Blog",
+          "description": "Yemek tariflerini ve mutfak kültürünü paylaşan, HTML ve CSS ile hazırlanmış bir blog sayfası.",
+          "image": "/screenshots/food-el-blog.jpg",
+          "tags": ["html", "css"],
+          "github": "https://github.com/aylinmercan-web/food-el-blog",
+          "live": "https://food-el-blog-seven.vercel.app/"
+        },
+        {
+          "id": 9,
+          "name": "Basit Hesap Makinesi",
+          "description": "useReducer mantığını uygulamak için geliştirdiğim, dört işlem ve bellek (memory) fonksiyonlarını destekleyen bir hesap makinesi.",
+          "image": "/screenshots/basit-hesap-makinesi.jpg",
+          "tags": ["react", "usereducer"],
+          "github": "https://github.com/aylinmercan-web/basit-hesap-makinesi",
+          "live": "https://basit-hesap-makinesi-chi.vercel.app/"
+        }
+      ]
+    },
+    "contact": {
+      "title": "İletişime Geçin, Birlikte Geliştirelim.",
+      "namePlaceholder": "Adınız",
+      "emailPlaceholder": "E-posta adresiniz",
+      "messagePlaceholder": "Mesajınız",
+      "submit": "Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Bir hata oluştu, lütfen tekrar deneyin.",
+      "email": "aylinmercan7@gmail.com",
+      "blog": "Kişisel Blog",
+      "github": "Github",
+      "linkedin": "Linkedin"
+    },
+    "footer": {
+      "rights": "Tüm hakları saklıdır."
+    }
+  },
+  "en": {
+    "nav": {
+      "skills": "Skills",
+      "projects": "Projects",
+      "hireMe": "Hire me",
+      "darkMode": "DARK MODE",
+      "switchLanguage": "TÜRKÇE'YE GEÇ"
+    },
+    "hero": {
+      "badge": "Aylin Mercan",
+      "titleLine1": "Simple by design.",
+      "titleLine2": "Powerful by code.",
+      "description": "Hi, I'm Aylin. I'm developing myself in JavaScript and React. In this project, I applied data flow and responsive design principles by building reusable components.",
+      "ctaHire": "Hire me",
+      "ctaGithub": "Github",
+      "ctaLinkedin": "Linkedin",
+      "imageAlt": "Developer working at a laptop"
+    },
+    "skills": {
+      "title": "Skills",
+      "items": [
+        {
+          "id": 1,
+          "name": "HTML",
+          "description": "I build semantic, accessible HTML structures that organize content meaningfully."
+        },
+        {
+          "id": 2,
+          "name": "CSS",
+          "description": "I design responsive, consistent interfaces with Flexbox, Grid and Tailwind CSS."
+        },
+        {
+          "id": 3,
+          "name": "JavaScript",
+          "description": "I write modern, readable and maintainable code with ES6+. Comfortable with asynchronous data flows."
+        },
+        {
+          "id": 4,
+          "name": "React.js",
+          "description": "I build component-based, reusable interfaces and manage state with Hooks and the Context API."
+        },
+        {
+          "id": 5,
+          "name": "Git",
+          "description": "I use Git for version control and track changes with clear, organized commits."
+        }
+      ]
+    },
+    "profile": {
+      "title": "Profile",
+      "basicInfoTitle": "Who Am I?",
+      "birthDateLabel": "Birth Date",
+      "birthDate": "26.02.1989",
+      "cityLabel": "City",
+      "city": "Muğla",
+      "educationLabel": "Education",
+      "education": "Workintech, Full Stack Development, 2026",
+      "roleLabel": "Preferred Role",
+      "role": "Frontend, UI",
+      "aboutMeTitle": "About Me",
+      "aboutMeParagraph1": "I graduated from Yıldız Technical University with a degree in Translation and Interpreting. After working in that field for a while, my growing interest in technology and software led me to a new career path. I'm currently completing Workintech's Full Stack Development program.",
+      "aboutMeParagraph2": "I build user-focused, accessible and performant interfaces with HTML, CSS, JavaScript and React. I'm detail-oriented, solution-driven and always open to learning new things."
+    },
+    "projects": {
+      "title": "Projects",
+      "items": [
+        {
+          "id": 1,
+          "name": "Teknolojik Yemekler",
+          "description": "A React app where users build a pizza order by choosing size, dough and toppings, then see an order summary.",
+          "image": "/screenshots/teknolojik-yemekler.jpg",
+          "tags": ["react", "react-router", "vite"],
+          "github": "https://github.com/aylinmercan-web/teknolojik-yemekler",
+          "live": "https://teknolojik-yemekler-sigma.vercel.app/"
+        },
+        {
+          "id": 2,
+          "name": "Language Workshop",
+          "description": "A personal concept project for language teaching, with flashcards, a lesson booking form and student testimonials.",
+          "image": "/screenshots/language-workshop.jpg",
+          "tags": ["react", "vite"],
+          "github": "https://github.com/aylinmercan-web/language-workshop",
+          "live": "https://language-workshop.vercel.app/"
+        },
+        {
+          "id": 3,
+          "name": "Book Store",
+          "description": "A book store interface with cart and product state managed via Context API, styled with styled-components.",
+          "image": "/screenshots/book-store.jpg",
+          "tags": ["react", "context api", "styled-components"],
+          "github": "https://github.com/aylinmercan-web/book-store",
+          "live": "https://book-store-wine-phi.vercel.app/"
+        },
+        {
+          "id": 4,
+          "name": "Friends Database",
+          "description": "A React app where logged-in users view their friends list and add new friends, built with protected routes.",
+          "image": "/screenshots/friends-database.jpg",
+          "tags": ["react", "context api", "react-router"],
+          "github": "https://github.com/aylinmercan-web/friends-database",
+          "live": "https://friends-database-five.vercel.app/"
+        },
+        {
+          "id": 5,
+          "name": "Favorite Movies Archive",
+          "description": "A movie archive app that keeps a favorites list with Redux, styled with Tailwind CSS.",
+          "image": "/screenshots/favori-filmler-arsivi.jpg",
+          "tags": ["react", "redux", "tailwind"],
+          "github": "https://github.com/aylinmercan-web/favori-filmler-arsivi",
+          "live": "https://favori-filmler-arsivi.vercel.app/"
+        },
+        {
+          "id": 6,
+          "name": "Movies Page",
+          "description": "A movies app that lists films and links through to a detail page, built with React Router.",
+          "image": "/screenshots/filmler-sayfasi.jpg",
+          "tags": ["react", "react-router"],
+          "github": "https://github.com/aylinmercan-web/filmler-sayfasi",
+          "live": "https://filmler-sayfasi.vercel.app/"
+        },
+        {
+          "id": 7,
+          "name": "Cappadocia Fairy Chimneys",
+          "description": "A multi-section landing page introducing Cappadocia and its fairy chimneys, built entirely with HTML and CSS.",
+          "image": "/screenshots/kapadokya-peri-bacalari.jpg",
+          "tags": ["html", "css"],
+          "github": "https://github.com/aylinmercan-web/kapadokya-peri-bacalari",
+          "live": "https://kapadokya-peri-bacalari.vercel.app/"
+        },
+        {
+          "id": 8,
+          "name": "Food El Blog",
+          "description": "A food blog page sharing recipes and food culture, built with HTML and CSS.",
+          "image": "/screenshots/food-el-blog.jpg",
+          "tags": ["html", "css"],
+          "github": "https://github.com/aylinmercan-web/food-el-blog",
+          "live": "https://food-el-blog-seven.vercel.app/"
+        },
+        {
+          "id": 9,
+          "name": "Simple Calculator",
+          "description": "A calculator built to practice useReducer, supporting the four basic operations plus memory functions.",
+          "image": "/screenshots/basit-hesap-makinesi.jpg",
+          "tags": ["react", "usereducer"],
+          "github": "https://github.com/aylinmercan-web/basit-hesap-makinesi",
+          "live": "https://basit-hesap-makinesi-chi.vercel.app/"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get in Touch, Let's Build Together.",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Your message",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Your message was sent successfully!",
+      "error": "Something went wrong, please try again.",
+      "email": "aylinmercan7@gmail.com",
+      "blog": "Personal Blog",
+      "github": "Github",
+      "linkedin": "Linkedin"
+    },
+    "footer": {
+      "rights": "All rights reserved."
+    }
+  }
+}
