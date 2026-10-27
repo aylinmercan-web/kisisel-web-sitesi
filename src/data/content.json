@@ -76,12 +76,12 @@
         },
         {
           "id": 2,
-          "name": "Dil Atölyesi",
-          "description": "Kelime kartları, ders rezervasyon formu ve öğrenci yorumlarından oluşan, dil öğretimine yönelik kişisel bir konsept proje.",
+          "name": "Turkish with Aylin",
+          "description": "Online Türkçe derslerim için yayında olan sitem. Blog, çekimleme alıştırması, kelime kartları, ders rezervasyon formu, karanlık mod ve e-kitap bölümü var. Kendi alan adıyla Cloudflare Pages'te yayında.",
           "image": "/screenshots/language-workshop.jpg",
-          "tags": ["react", "vite"],
+          "tags": ["react", "vite", "tailwind"],
           "github": "https://github.com/aylinmercan-web/language-workshop",
-          "live": "https://language-workshop.vercel.app/"
+          "live": "https://turkishwithaylin.com"
         },
         {
           "id": 3,
@@ -243,12 +243,12 @@
         },
         {
           "id": 2,
-          "name": "Language Workshop",
-          "description": "A personal concept project for language teaching, with flashcards, a lesson booking form and student testimonials.",
+          "name": "Turkish with Aylin",
+          "description": "The live website for my online Turkish lessons, with a blog, verb conjugation practice, flashcards, a booking form, dark mode and an e-book section. Deployed on Cloudflare Pages with a custom domain.",
           "image": "/screenshots/language-workshop.jpg",
-          "tags": ["react", "vite"],
+          "tags": ["react", "vite", "tailwind"],
           "github": "https://github.com/aylinmercan-web/language-workshop",
-          "live": "https://language-workshop.vercel.app/"
+          "live": "https://turkishwithaylin.com"
         },
         {
           "id": 3,
