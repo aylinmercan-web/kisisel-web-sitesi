@@ -1,10 +1,12 @@
 import { useState } from 'react'
+import axios from 'axios'
 import { toast } from 'react-toastify'
 import { useLanguage } from '../context/LanguageContext'
-import axiosInstance from '../api/axiosInstance'
 import { MailIcon, GithubIcon, LinkedinIcon } from './icons'
 
 const initialForm = { name: '', email: '', message: '' }
+
+const WEB3FORMS_ACCESS_KEY = '4fe494f3-ee4f-4783-adfc-674b153e2764'
 
 export default function Contact() {
   const { t, language } = useLanguage()
@@ -23,15 +25,20 @@ export default function Contact() {
     setStatus('loading')
 
     try {
-      // reqres.in gerçek bir veri saklamaz, gönderdiğimiz veriyi id + createdAt
-      // ile birlikte yankılar. Burada dış bir servisle axios ile POST atabildiğimizi
-      // gösteriyoruz (Görev talimatı: reqres.in/api/workintech).
-      const response = await axiosInstance.post('/workintech', form)
-      console.log('reqres.in yanıtı:', response.data)
+      const response = await axios.post('https://api.web3forms.com/submit', {
+        access_key: WEB3FORMS_ACCESS_KEY,
+        name: form.name,
+        email: form.email,
+        message: form.message,
+      })
 
-      toast.success(contact.success)
-      setStatus('success')
-      setForm(initialForm)
+      if (response.data.success) {
+        toast.success(contact.success)
+        setStatus('success')
+        setForm(initialForm)
+      } else {
+        throw new Error('Web3Forms isteği başarısız oldu')
+      }
     } catch (error) {
       console.error('Mesaj gönderilemedi:', error)
       toast.error(contact.error)
