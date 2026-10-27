@@ -24,6 +24,7 @@ export default function Projects() {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
+                    lang="en"
                     className="text-[11px] uppercase tracking-wide font-medium rounded-full border border-gray-200 dark:border-gray-700 px-2.5 py-1 text-muted dark:text-gray-400"
                   >
                     {tag}
